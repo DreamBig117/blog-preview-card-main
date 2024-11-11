@@ -1,0 +1,75 @@
+body{ 
+    display: flex;
+    align-items: flex-start;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+.container{
+    width: 50%;
+    height: 70dvh;
+    display:flex;
+    align-items:flex-start;
+    justify-content:center 10px;
+    padding: 20px;
+    background-color: green;
+    border-radius: 20px;
+    box-shadow: black 10px 10px;
+}   
+
+.containerblue{ 
+    display: flex;
+    background-color: blue;
+    width: 30%;
+    height: 20dvh;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: baseline;
+    box-shadow: 10px 10px black;
+}
+.containerwhite{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    width: 30%;
+    height:50dvh ;
+    border-radius: 20px;
+    justify-content:baseline;
+    padding: 20px;
+    box-shadow: 10px 10px black;
+    align-content: center;
+}
+.containerblack{
+    display: flex;
+    
+    width: 80%;
+    height: 25dvh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px 20px;
+}
+.containerred{
+    display: flex;
+    background-color: red;
+    width: 80%;
+    height: 25px;
+    margin: 10px ;
+    border-radius: 20px;
+}
+.containeryellow{
+    display: flex;
+    background-color: yellow;
+    width: 30%;
+    height: 20dvh;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: baseline;
+    padding: 20px;
+    box-shadow: black 10px 10px;
+}
